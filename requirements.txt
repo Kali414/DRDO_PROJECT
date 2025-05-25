@@ -1,2 +1,7 @@
 flask
-opencv-python
+gunicorn
+tensorflow
+numpy
+pandas
+joblib
+python-opencv
