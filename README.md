@@ -103,8 +103,8 @@ This project implements a non-contact heart rate detection system using a standa
 
 1. **Clone the repository**
 ```
-git clone https://github.com/yourusername/webcam-heart-rate-detection.git
-cd webcam-heart-rate-detection
+git clone https://github.com/Kali414/DRDO_PROJECT.git
+cd DRDO_PROJECT
 ```
 
 2. **Install dependencies:**
