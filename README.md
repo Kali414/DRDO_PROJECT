@@ -46,7 +46,7 @@ This project implements a non-contact heart rate detection system using a standa
 - **Feature/**: Notebooks for feature extraction and exploration.
 - **Notebook/**: Model training/testing notebooks and preprocessed data files.
 - **static/**, **templates/**: Web application assets (HTML, CSS, JS).
-- **app.py**: Main application script (Flask or Streamlit app).
+- **app.py**: Main application script (Flask app).
 - **bpm_model.keras**, **bpm_model_v2.keras**: Saved Keras models.
 - **formula_bpm_measure.py**: Heart rate calculation utilities.
 - **haar_cascade_frontal_face.xml**: Face detection model.
