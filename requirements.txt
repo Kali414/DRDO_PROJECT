@@ -4,4 +4,4 @@ tensorflow
 numpy
 pandas
 joblib
-python-opencv
+opencv-python
