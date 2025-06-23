@@ -151,10 +151,10 @@ This project is licensed under the terms of the MIT License. See the [LICENSE](L
 
 <<<<<<< HEAD
 For questions or contributions, contact: [kalicharansahoo91@gmail.com , sumandalai0509@gmail.com,
- anmolagrawal67415@gmail.com]
+ anmolagrawal67415@gmail.com, radhamadhabpattnaik23@gmail.com]
 =======
-For questions or contributions, contact: [kalicharansahoo91@gmail.com , sumandalai0509@gmail.com, anmolagrawal67415@gmail.com]
->>>>>>> 0543a7d654eec0c773aff94cc4188791be0de2e3
+For questions or contributions, contact: [kalicharansahoo91@gmail.com , sumandalai0509@gmail.com, anmolagrawal67415@gmail.com, radhamadhabpattnaik23@gmail.com]
+
 
 ---
 
