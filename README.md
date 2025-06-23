@@ -27,7 +27,7 @@ This project implements a non-contact heart rate detection system using a standa
 ## Features
 
 - Non-contact heart rate estimation using webcam video
-- Face detection and region-of-interest extraction
+- Face detection and region-of-interest (ROI) extraction
 - Feature extraction from facial video (mean green channel intensity)
 - Deep learning model (CNN-LSTM) for temporal signal processing
 - End-to-end pipeline: video input → face detection → feature extraction → heart rate prediction
@@ -64,8 +64,8 @@ This project implements a non-contact heart rate detection system using a standa
 - **Note**: For subjects 21 and 27, facial images must not be published or shared.
 
 **Ground Truth Format:**
-- *Dataset 1*: `.xmp` files (Timestep, HR, SpO2, PPG)
-- *Dataset 2*: `ground_truth.txt` (PPG, HR, Timestep)
+- *Dataset 1*: `.xmp` files (Timestep, Heart Rate, SpO2, PPG)
+- *Dataset 2*: `ground_truth.txt` (PPG, Heart Rate, Timestep)
 
  *Download the UBFC-RPPG dataset (see [Dataset](https://drive.google.com/drive/folders/1o0XU4gTIo46YfwaWjIgbtCncc-oF44Xk?usp=drive_link)) .*
 
@@ -74,14 +74,14 @@ This project implements a non-contact heart rate detection system using a standa
 ## Methodology
 
 1. **Data Preprocessing**:
-   - Load video frames and corresponding ground truth HR.
+   - Load video frames and corresponding ground truth Heart Rate.
    - Detect face region using Haar cascade.
    - Extract mean green channel intensity from the face region for each frame.
    - Segment features into windows of 24 frames.
 
 2. **Model Training**:
    - Input: Sequence of mean green values (shape: 24, 1).
-   - Output: Corresponding HR values (shape: 24).
+   - Output: Corresponding Heart Rate values (shape: 24).
    - Model: CNN-LSTM (see below).
 
 3. **Prediction**:
@@ -105,8 +105,8 @@ This project implements a non-contact heart rate detection system using a standa
 
 1. **Clone the repository**
 ```
-git clone https://github.com/yourusername/webcam-heart-rate-detection.git
-cd webcam-heart-rate-detection
+git clone https://github.com/Kali414/DRDO_PROJECT.git
+cd DRDO_PROJECT
 ```
 
 2. **Install dependencies:**
@@ -127,8 +127,8 @@ docker-compose up --build
 ## Limitations & Ethical Considerations
 
 - Accuracy may vary with lighting, movement, and camera quality.
-- Application can only detect HR for 1 people at a time
-- Sudden change can cause incorrect HR calculation. In the most case, HR can be correctly detected after 10 seconds being stable infront of the camera
+- Application can only detect heart rate for 1 people at a time
+- Sudden change can cause incorrect heart rate calculation. In the most case, heart rate can be correctly detected after 10 seconds being stable infront of the camera
 - Dataset restrictions: Do not publish or share facial images from restricted subjects.
 ---
 
@@ -149,8 +149,12 @@ This project is licensed under the terms of the MIT License. See the [LICENSE](L
 
 ## Contact
 
+<<<<<<< HEAD
 For questions or contributions, contact: [kalicharansahoo91@gmail.com , sumandalai0509@gmail.com,
  anmolagrawal67415@gmail.com]
+=======
+For questions or contributions, contact: [kalicharansahoo91@gmail.com , sumandalai0509@gmail.com, anmolagrawal67415@gmail.com]
+>>>>>>> 0543a7d654eec0c773aff94cc4188791be0de2e3
 
 ---
 

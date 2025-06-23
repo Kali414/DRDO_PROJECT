@@ -5,4 +5,7 @@ numpy
 pandas
 joblib
 opencv-python
+<<<<<<< HEAD
 mediapipe
+=======
+>>>>>>> 0543a7d654eec0c773aff94cc4188791be0de2e3
