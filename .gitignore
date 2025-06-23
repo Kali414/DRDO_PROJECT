@@ -1,4 +1,13 @@
-/.ipynb_checkpoints
-Notebook/.ipynb_checkpoints
-Feature/.ipynb_checkpoints
-/Rppg - important notes.pdf
+# Ignore everything
+*
+
+# Include specific files
+!docker-compose.yml
+!README.md
+
+# Include folders
+!frontend/
+!backend/
+
+# Include .gitignore
+!.gitignore
