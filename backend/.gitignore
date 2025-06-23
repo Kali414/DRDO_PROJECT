@@ -1,0 +1,24 @@
+# Python
+venv/
+venv310/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+
+# Flask environment variables
+.env
+
+# Pytest cache
+.cache/
+
+# Coverage reports
+.coverage
+# Migrations
+migrations/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/

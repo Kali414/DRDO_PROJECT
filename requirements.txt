@@ -3,5 +3,4 @@ gunicorn
 tensorflow
 numpy
 pandas
-joblib
 opencv-python
