@@ -11,7 +11,6 @@ This project implements a non-contact heart rate detection system using a standa
 ## Table of Contents
 
 - [Features](#features)
-- [Demo](#demo)
 - [Project Structure](#project-structure)
 - [Dataset](#dataset)
 - [Methodology](#methodology)
@@ -31,14 +30,6 @@ This project implements a non-contact heart rate detection system using a standa
 - Feature extraction from facial video (mean green channel intensity)
 - Deep learning model (CNN-LSTM) for temporal signal processing
 - End-to-end pipeline: video input → face detection → feature extraction → heart rate prediction
-
----
-
-## Demo
-
-
-![Demo Screenshot](https://github.com/Kali414/DRDO_PROJECT/blob/main/static/DRDO.webp)
-
 
 ---
 
@@ -100,24 +91,71 @@ This project implements a non-contact heart rate detection system using a standa
 - **Loss**: Mean Absolute Error (MAE).
 
 ---
+## 🚀 Installation & Setup Guide
 
-## Installation
+Follow these steps to run the entire project on your local machine.
 
-1. **Clone the repository**
-```
-git clone https://github.com/Kali414/DRDO_PROJECT.git
-cd DRDO_PROJECT
+### 🧾 Prerequisites
+
+Make sure you have the following installed:
+- Python (version < 3.11, e.g., 3.10.x)
+- Node.js (v14 or higher)
+- npm (comes with Node.js)
+- Git
+
+---
+
+### 🛠️ Step-by-Step Setup
+
+#### 1. **Clone the Repository**
+
+```bash
+git clone https://github.com/Sumandalai/heartRate-website
+cd heartRate-website
 ```
 
-2. **Install dependencies:**
-```
+#### 2. **Start the Backend**
+
+```bash
+cd backend
+# (Optional) Create and activate a virtual environment
+python -m venv venv
+source venv/bin/activate       # On Windows: venv\Scripts\activate
+
+# Install backend dependencies
 pip install -r requirements.txt
-```
 
-3. **Run Web Application:**
-```
+# Run the backend server
 python app.py
 ```
+
+Backend will run at: **http://localhost:5000**
+
+#### 3. **Start the Frontend**
+
+Open a new terminal window (keep backend running)
+
+```bash
+cd heartRate-website/frontend
+
+# Install frontend dependencies
+npm install
+
+# Run the frontend dev server
+npm run dev
+```
+
+Frontend will run at: **http://localhost:3000**
+
+---
+
+## ✅ Final Check
+
+✅ **Backend**: http://localhost:5000  
+✅ **Frontend**: http://localhost:3000  
+✅ **Open** http://localhost:3000 in your browser and use the app
+
+
 **OR Run using Docker Compose:**
 ```
 docker-compose up --build
