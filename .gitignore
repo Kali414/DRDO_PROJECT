@@ -1,13 +1,2 @@
-# Ignore everything
-*
-
-# Include specific files
-!docker-compose.yml
-!README.md
-
-# Include folders
-!frontend/
-!backend/
-
-# Include .gitignore
-!.gitignore
+.ipynb_checkpoints
+Notenook/
