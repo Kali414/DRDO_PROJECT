@@ -1,2 +1,6 @@
 flask
+gunicorn
+tensorflow
+numpy
+pandas
 opencv-python
